@@ -1,6 +1,8 @@
 # Gemini-Retrieval-Augmented-Generation-RAG-system-with-LLMs-from-Scratch
 This project implements a Retrieval-Augmented Generation (RAG) system using Google’s Gemini LLMs. The system allows users to upload documents (.txt, .md, .pdf, .docx) and ask questions grounded strictly in the content of the uploaded documents. The model generates answers based solely on the provided context, ensuring reliable and document-specific responses.
 
+LIVE ON STREAMLIT CLOUD: https://gemini-ragsystem-llm.streamlit.app/
+
 Key features include:
 
 1. Multi-format document parsing – supports plain text, Markdown, PDF, and Word documents.
@@ -50,3 +52,5 @@ GOOGLE_API_KEY=your_api_key_here
 4. Run the Streamlit app:
 
 streamlit run app.py
+
+
